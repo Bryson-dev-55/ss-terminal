@@ -1,5 +1,3 @@
-[file name]: index.js
-[file content begin]
 const express = require('express');
 const axios = require('axios');
 const path = require('path');
@@ -272,4 +270,3 @@ async function convertCookie(cookie) {
 }
 
 app.listen(5000);
-[file content end]
